@@ -133,6 +133,10 @@ Run the application: ./gradlew bootRun
 ```
 
 ```
+To run the tests use ./gradlew test
+```
+
+```
 If you are facing gradle permission errors, please try this.
 
 
