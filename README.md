@@ -132,3 +132,21 @@ Build the project: ./gradlew build
 Run the application: ./gradlew bootRun
 ```
 
+```
+If you are facing gradle permission errors, please try this.
+
+
+The "permission denied" error typically indicates that the gradlew file does not have executable permissions. You can resolve this issue by changing the file permissions. Here’s how to do it:
+
+Open your terminal.
+
+Navigate to your project directory.
+
+cd <project-directory>
+
+Change the permissions to make gradlew executable:
+chmod +x gradlew
+Now try running the command again gradle commands
+
+```
+
